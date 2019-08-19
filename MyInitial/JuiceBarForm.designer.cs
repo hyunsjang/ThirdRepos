@@ -73,7 +73,6 @@ namespace MyNameSpace
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.noSizeRadioButton);
             this.groupBox1.Controls.Add(this.twentyOunceRadioButton);
             this.groupBox1.Controls.Add(this.sixteenOunceRadioButton);
             this.groupBox1.Controls.Add(this.twelveOunceRadioButton);
@@ -89,7 +88,7 @@ namespace MyNameSpace
             // 
             this.noSizeRadioButton.AutoSize = true;
             this.noSizeRadioButton.Checked = true;
-            this.noSizeRadioButton.Location = new System.Drawing.Point(99, 81);
+            this.noSizeRadioButton.Location = new System.Drawing.Point(64, 119);
             this.noSizeRadioButton.Name = "noSizeRadioButton";
             this.noSizeRadioButton.Size = new System.Drawing.Size(62, 17);
             this.noSizeRadioButton.TabIndex = 3;
@@ -362,6 +361,7 @@ namespace MyNameSpace
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.noSizeRadioButton);
             this.groupBox2.Controls.Add(this.drinkTypeComboBox);
             this.groupBox2.Location = new System.Drawing.Point(211, 68);
             this.groupBox2.Name = "groupBox2";
@@ -430,6 +430,7 @@ namespace MyNameSpace
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
